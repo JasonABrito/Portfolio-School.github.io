@@ -5,7 +5,7 @@
 }
 body {
     color: black;
-    background-color: aliceblue;
+    background-color: #1F363D;
     font-family: "VT323";
     font-size: 1.5em;
 }
@@ -33,13 +33,60 @@ footer p {
     text-align: center;
     margin-bottom: -1em;
 }
+
+#Home {
+    background-image: url(./original.gif);
+    background-size: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
+
+
+#Projects{
+    padding: .5em;
+}
+
+.navbar{
+    
+}
+
+.jumbotron {
+    background-size: 100%;
+    height: 10em;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.5);
+}
+
+.dot {
+    background-image: url(./ProfSmall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    margin: auto;
+    border: black solid 2px;
+    border-radius: 90%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Text Box Start*/
+
 #Me {
     position: absolute;
-    bottom: 0px;
-    left: 200px;
-    height: 250px;
-    width: 200px;
-    z-index: 9999;
+    bottom: 0%;
+    left: 15%;
+    height: 32%;
+    width: 12.5%;
+    z-index: 9000;
 }
 
 #Image {
@@ -116,43 +163,4 @@ footer p {
         border-color: transparent
     }
 }
-#Home {
-    background-image: url(./original.gif);
-    background-size: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-
-}
-
-
-#Projects{
-    padding: .5em;
-}
-
-.jumbotron {
-    background-size: 100%;
-    height: 10em;
-}
-
-.grow {
-    transition: all .2s ease-in-out;
-}
-
-.grow:hover {
-    transform: scale(1.5);
-}
-
-.dot {
-    background-image: url(./ProfSmall.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-    margin: auto;
-    border: black solid 2px;
-    border-radius: 90%;
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*Text Box End*/
