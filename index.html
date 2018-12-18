@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
@@ -8,45 +9,205 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./Resources/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">    
-
-
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|VT323" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="./Resources/LogoHD.png" />
     <title>Portfolio</title>
 </head>
+
 <body>
-        <section id="intro-carousel" class='container carousel slide' data-ride="carousel">
+    <div id="Image">
+        <img id="Me" src="./Resources/meo.png">
+    </div>
+    <div class="txtBN">
+        <p id="typeWriter" class="Name">Jason</p>
+    </div>
+    <div class="txtB">
+        <p id="typeWriter" > Hello! Welcome to my Porfolio, I hope you do enjoy <br> your stay. </p>  
+      </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-center">
 
-                <div class="carousel-inner ">
-                    <article class="carousel-item active jumbotron text-center ">
-                        <h1>About me</h1>
-                    </article>
-                    <article class="carousel-item jumbotron text-center display-4">
-                        <p>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navOptions">
+            <span class='navbar-toggler-icon'></span>
+        </button>
 
-                        </p>
-                    </article>
-                    <article class="carousel-item jumbotron text-center display-4">
-                            <p>
-    
-                            </p>
-                        </article>`
+        <div id="navOptions" class='collapse navbar-collapse'>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><strong>Jason Brito</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#AboutMe" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Projects" class="nav-link"> Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link"> Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="Home">
+        <div>
+            <div class="dot" alt="Picture of Me"> </div>
+
+        </div>
+    </section>
+
+    <section id="AboutMe" class='container carousel slide' data-ride="carousel">
+
+        <div class="carousel-inner ">
+            <article class="carousel-item active jumbotron text-center display-4">
+                <h1>
+                    About Me
+                </h1>
+                <p>
+                    D
+                </p>
+            </article>
+            <article class="carousel-item jumbotron text-center display-4">
+                <p>
+                    a
+                </p>
+            </article>
+            <article class="carousel-item jumbotron text-center display-4">
+                <p>
+                    d
+                </p>
+            </article>
+        </div>
+
+        <a class="carousel-control-prev" href="#AboutMe" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#AboutMe" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </section>
+
+    <section id="Projects">
+
+        <div class="card-columns">
+
+            <div class="card text-center">
+                <div class="card-header">
+                    Connect Four
                 </div>
-        
-                <a class="carousel-control-prev" href="#intro-carousel" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#intro-carousel" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </section>
+                <div class="card-body">
+                    <iframe id="conFor" class="hidden" title="Connect Four" width="400" height="400" src="https://jasonabrito.github.io/Nextech2019/TableConnect/"></iframe>
+                    <h5 class="card-title">Connect Four Project</h5>
+                    <p class="card-text">This is an interactive game of connect four, however if you'd like, you could visit the actual website.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="https://jasonabrito.github.io/Nextech2019/TableConnect/" class="btn btn-primary">Visit
+                        Website</a>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div class="card-header">
+                    Tic Tac Toe
+                </div>
+                <div class="card-body">
+                    <iframe id="conFor" class="hidden" title="Connect Four" width="400" height="400" src="https://jasonabrito.github.io/Nextech2019//Games/TicTacToe/"></iframe>
+                    <h5 class="card-title">Tic Tac Toe Project</h5>
+                    <p class="card-text">This is an interactive game of Tic Tac Toe, however if you'd like, you could visit the actual website.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="https://jasonabrito.github.io/Nextech2019//Games/TicTacToe/"" class=" btn btn-primary">Visit
+                        Website</a>
+                </div>
+            </div>
 
+            <div class="card text-center">
+                <div class="card-header">
+                    Advanced HTML & CSS
+                </div>
+                <div class="card-body">
+                    <img src="./Resources/Adv HTML & CSS.png" alt="Screen Clip of Website" height="400" width="400">
+                    <h5 class="card-title">Favorite Thing Project</h5>
+                    <p class="card-text">Project using all the skills we learned previously to make a website about our favorite thing.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="#" class="btn btn-primary">Visit Website</a>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div class="card-header">
+                    CSS Practice
+                </div>
+                <div class="card-body">
+                    <img src="./Resources/AboutyouClip.png" alt="Screen Clip of Website" height="400" width="400">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="#" class="btn btn-primary">Visit Website</a>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div class="card-header">
+                    Bootstrap Practice
+                </div>
+                <div class="card-body">
+                    <img src="./Resources/Bootstrap Clip.png" alt="Screen Clip of Website" height="400" width="400">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="#" class="btn btn-primary">Visit Website</a>
+                </div>
+            </div>
 
+            <div class="card text-center">
+                <div class="card-header">
+                    Basic HTML Practice
+                </div>
+                <div class="card-body">
+                    <img src="./Resources/HTML Practice.png" alt="Screen Clip of Website" height="400" width="400">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="#" class="btn btn-primary">Visit Website</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="Contact" class=" text-center bg-dark">
+        <h1> <u>Contact</u> </h1>
+        <div class="jumbotron text-center bg-dark" style="font-family: 'Press Start 2P'; color: yellow">
+            <p>
+                Jason Brito
+            </p>
+            <p>
+                jasobri24@gmail.com
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="icon-container bg-dark">
+            <ul>
+                <li><i class="fa fa-github grow"></i></li>
+                <li> <i class="fa fa-linkedin-square grow"></i> </li>
+            </ul>
+            <p>&copy; Jason Brito 2018. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
-    
-    
-    <!--<head>
+
+
+<!--<head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  <script> 
     $(document).ready(function(){
