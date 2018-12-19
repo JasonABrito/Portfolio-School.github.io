@@ -1,8 +1,13 @@
 $(document).ready(function () {
 
-    $(".click").click(function() {
+    $(".Shrink").click(function() {
 
-        $(".show").show();
+        $(".Shrink").animate({
+            left: '90%',
+            height: '10%',
+            width: '10%',
+            top: '10%'
+        });
 
     })
 

@@ -46,14 +46,29 @@ footer p {
 #Projects{
     padding: .5em;
 }
+#AboutMe a:hover{
 
-.navbar{
-    
+    background-color: rgba(47, 45, 85, 0.2)
+}
+
+#who-desc{
+    position: relative;
+    left: 20%;
+    width: 70%;
 }
 
 .jumbotron {
     background-size: 100%;
     height: 10em;
+}
+
+.nav-item:hover{
+    background-color: rgba(88, 87, 110, 0.2);
+
+}
+
+.nav-tabs{
+    color: yellow;
 }
 
 .grow {
@@ -86,7 +101,7 @@ footer p {
     left: 15%;
     height: 32%;
     width: 12.5%;
-    z-index: 9000;
+    z-index: 501;
 }
 
 #Image {
@@ -113,18 +128,18 @@ footer p {
     width: 530px;
     border: black solid 2px;
     background-color: rgba(50, 42, 168, 0.7);
-    z-index: 999;
+    z-index: 500;
 }
 
 .txtBN {
     position: absolute;
-    bottom: 11.5%;
+    bottom: 12.2%;
     left: 25%;
     height: 4%;
     width: 6%;
     border: black solid 2px;
     background-color: rgba(50, 42, 168, 0.7);
-    z-index: 999;
+    z-index: 500;
 }
 
 .Name {
@@ -133,6 +148,7 @@ footer p {
     top: -20%;
     text-align: center;
 }
+
 
 /* Type writer */
 
